@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A modern, film-themed portfolio website with light/dark mode toggle and timeline-based experience section.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server src",
+    "build": "mkdir -p dist && cp -r src/* dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varunprakash-03/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varunprakash-03/portfolio/issues"
+  },
+  "homepage": "https://github.com/varunprakash-03/portfolio#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
