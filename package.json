@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "dev": "live-server src",
-    "build": "mkdir -p dist && cp -r src/* dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
